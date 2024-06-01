@@ -1,6 +1,5 @@
 # Concepto: Amenaza, Ataque y Vulnerabilidad
 
---
 
 ## Amenaza, Ataque y Vulnerabilidad
 
