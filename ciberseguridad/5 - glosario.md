@@ -1,5 +1,9 @@
 # Glosario Extendido de Ciberseguridad (INCIBE)
 
+**Referencia adicional:** [Glosario de ciberseguridad NIST](https://csrc.nist.gov/glossary)  
+
+---
+
 ## Índice
 1. [Fundamentos de seguridad](#fundamentos-de-seguridad)
 2. [Amenazas y ataques](#amenazas-y-ataques)
