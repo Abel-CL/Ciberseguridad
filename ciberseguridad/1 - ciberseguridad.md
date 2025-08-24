@@ -1,69 +1,170 @@
 # ¿Qué es la Ciberseguridad?
 
-La ciberseguridad comprende un conjunto de prácticas y medidas destinadas a **salvaguardar la infraestructura tecnológica** (sistemas, redes, aplicaciones y datos) contra amenazas digitales.  
+La ciberseguridad es el conjunto de estrategias, tecnologías y procesos diseñados para proteger la información y los sistemas digitales de amenazas, accesos no autorizados o daños. No solo abarca la protección de computadoras o redes, sino también de dispositivos móviles, servicios en la nube, bases de datos y aplicaciones que manejan información crítica.
+Se aplica a organizaciones, individuos y gobiernos y busca proteger datos críticos, asegurar la continuidad de los servicios y minimizar riesgos económicos, legales y reputacionales.
 
-Las organizaciones deben proteger su infraestructura no solo para mantener la **confianza del cliente**, sino también para cumplir con **regulaciones y normativas**.  
-Para lograrlo, implementan una variedad de **procesos, controles y herramientas de seguridad**.
+Objetivos principales:
+
+- Garantizar la confidencialidad, integridad y disponibilidad de la información (Tríada CIA).
+
+- Mantener la continuidad operativa de los servicios.
+
+- Reducir riesgos económicos, legales y reputacionales ante incidentes de seguridad.
+
+La ciberseguridad es una necesidad tanto para empresas como para individuos, ya que los ataques digitales pueden afectar desde sistemas bancarios hasta datos personales almacenados en la nube.
 
 ---
 
-## Abordando la Ciberseguridad
+## Tipos de Ciberseguridad
 
-Enfrentar los desafíos de la ciberseguridad requiere apoyarse en **estándares, normativas y metodologías**.  
-Una de las guías más destacadas es el **Marco de Ciberseguridad del NIST** (National Institute of Standards and Technology).  
+La ciberseguridad puede dividirse según el enfoque o el entorno protegido:
+
+- Ciberseguridad de red: protege infraestructuras de red, routers, firewalls y tráfico de datos.
+
+- Ciberseguridad de aplicaciones: asegura que programas y apps no sean vulnerables a ataques.
+
+- Ciberseguridad de información/datos: protege bases de datos, archivos y documentos críticos.
+
+- Ciberseguridad de endpoint: protege dispositivos finales (PC, móviles, IoT) frente a malware y accesos no autorizados.
+
+- Ciberseguridad en la nube: protege datos y aplicaciones alojadas en servicios cloud.
+
+- Ciberseguridad industrial / ICS: protege sistemas de control industrial y SCADA en fábricas y energía.
+
+- Ciberseguridad ofensiva (Red Team): pruebas de penetración y auditorías para detectar vulnerabilidades.
+
+- Ciberseguridad defensiva (Blue Team): monitoreo, detección y respuesta ante amenazas.
+
+---
+
+## Amenazas y Tipos de Ataques
+
+Las amenazas cibernéticas evolucionan constantemente y pueden clasificarse así:
+
+- Malware: virus, troyanos, ransomware, spyware.
+
+- Phishing: engaños para obtener credenciales o información sensible.
+
+- Ataques de denegación de servicio (DoS/DDoS): saturan sistemas para interrumpir servicios.
+
+- Exploits y vulnerabilidades: fallas en software/hardware que permiten intrusiones.
+
+- Robo de identidad y fraude digital: suplantación de personas o empresas.
+
+- Ataques internos: empleados maliciosos o negligentes con acceso autorizado.
+
+- Ingeniería social: manipulación psicológica para obtener información o permisos.
+
+Dato: Más del 70% de los ataques exitosos dependen del factor humano, no de la tecnología avanzada.
+
+---
+
+## Importancia de la Ciberseguridad
+
+La ciberseguridad protege personas, empresas y gobiernos frente a riesgos digitales. Sus beneficios incluyen:
+
+- Protección de datos sensibles: Información financiera, médica, confidencial corporativa.
+
+- Prevención de pérdidas económicas: Ataques como ransomware pueden generar millones en daños.
+
+- Cumplimiento legal y regulatorio: Normas como GDPR, ISO 27001 o la Ley de Protección de Datos requieren medidas de seguridad.
+
+- Continuidad de negocio: Evita interrupciones críticas en servicios y operaciones.
+
+- Confianza de clientes y socios: Garantiza que la información compartida sea segura y confiable.
 
 ---
 
 ## Marco de Ciberseguridad del NIST
 
-El NIST proporciona una **estructura integral** para evaluar y mejorar la postura de ciberseguridad de las organizaciones.  
-Se compone de **cinco funciones principales**:  
-
-<details>
-<summary>Ver funciones NIST</summary>
+El NIST (National Institute of Standards and Technology) ofrece un marco integral para gestionar riesgos cibernéticos. Sus cinco funciones principales permiten estructurar la seguridad de manera efectiva:
 
 ### 1. Identificar (Identify)
-- Comprender los **activos, datos y operaciones críticas** de la organización.  
-- Identificar recursos y sistemas vulnerables.  
-- Evaluar exposición a amenazas potenciales.  
+
+- Catalogar activos críticos y sistemas.
+
+- Evaluar riesgos y vulnerabilidades.
+
+- Priorizar recursos según impacto en la organización.
 
 ### 2. Proteger (Protect)
-- Implementar medidas de seguridad adecuadas.  
-- Controles de acceso, políticas de seguridad y capacitación del personal.  
+
+- Implementar políticas de seguridad, controles de acceso y cifrado.
+
+- Formar al personal en buenas prácticas y concientización.
+
+- Asegurar la protección de datos críticos y confidenciales.
 
 ### 3. Detectar (Detect)
-- Identificar amenazas y actividades anómalas.  
-- Uso de sistemas y procesos de monitoreo continuo.  
+
+- Monitorear continuamente eventos y anomalías.
+
+- Detectar incidentes tempranamente para una rápida respuesta.
 
 ### 4. Responder (Respond)
-- Capacidad de reaccionar rápida y efectivamente ante incidentes.  
-- Mitigar daños y restaurar la operatividad normal.  
+
+- Planificar y ejecutar acciones ante incidentes de seguridad.
+
+- Mitigar daños y comunicar a las partes interesadas.
+
+- Analizar incidentes para mejorar las defensas.
 
 ### 5. Recuperar (Recover)
-- Recuperarse tras un incidente de seguridad.  
-- Restaurar sistemas y datos.  
-- Implementar mejoras para prevenir futuros incidentes.  
 
-</details>
+- Restaurar sistemas y operaciones normales tras un incidente.
+
+- Revisar estrategias y actualizar planes de seguridad.
+
+- Mejorar la resiliencia organizacional ante futuros ataques.
 
 ---
 
-## Roles en la Ciberseguridad
+## Buenas Prácticas de Ciberseguridad
 
-<details>
-<summary>Ver roles</summary>
+Para mantener un entorno seguro, se recomienda:
 
-### Blue Team (Defensivo)
-- Están orientados a la **ciberseguridad defensiva**.  
-- Establecen y mantienen las medidas necesarias para **proteger la infraestructura**.  
+- Mantener software y sistemas actualizados para evitar vulnerabilidades conocidas.
 
-### Red Team (Ofensivo)
-- Orientados a la **ciberseguridad ofensiva**.  
-- Simulan acciones de atacantes reales para **probar la eficacia** de las defensas.  
+- Usar contraseñas robustas y autenticación multifactor.
 
-### Purple Team (Colaborativo)
-- Combinan el rol de **Red Team** y **Blue Team**.  
-- Fomentan la **colaboración y aprendizaje conjunto**.  
-- El objetivo es que el Blue Team aprenda de las técnicas ofensivas para **mejorar la seguridad global**.  
+- Realizar copias de seguridad periódicas de datos críticos.
 
-</details>
+- Implementar auditorías y pruebas de penetración para identificar debilidades.
+
+- Capacitar al personal y usuarios en ciberseguridad de manera continua.
+
+- Definir planes de respuesta y recuperación ante incidentes de seguridad.
+
+- Aplicar políticas de control de accesos y permisos según roles.
+
+Tip: Adoptar cultura de ciberseguridad en la organización, donde cada empleado entiende que su comportamiento impacta la seguridad global.
+
+---
+
+## Tecnologías y Herramientas Clave
+
+Algunas de las tecnologías más usadas incluyen:
+
+- Firewalls y sistemas IDS/IPS: filtrado y monitoreo de tráfico.
+
+- Sistemas de gestión de información y eventos de seguridad (SIEM): centralización y análisis de logs.
+
+- Antivirus y antimalware: detección y eliminación de amenazas conocidas.
+
+- Cifrado y gestión de claves: protección de datos sensibles.
+
+- VPN y segmentación de red: asegurar la comunicación y limitar el alcance de un ataque.
+
+---
+
+## Tendencias en Ciberseguridad
+
+- Inteligencia artificial y machine learning: detección automática de patrones anómalos.
+
+- Seguridad Zero Trust: no confiar en ningún dispositivo o usuario por defecto.
+
+- Protección contra ransomware y ataques a la cadena de suministro.
+
+- Ciberseguridad en IoT y dispositivos conectados.
+
+- Automatización de respuesta ante incidentes para reducir tiempos de mitigación.
