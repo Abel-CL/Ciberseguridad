@@ -2,10 +2,11 @@
 
 
 ## 1. Ciberseguridad Básica / Fundamentos
-<details>
-<summary>Ver detalles</summary>
 
 📌 Descripción: Introducción a los conceptos esenciales de ciberseguridad, amenazas y vulnerabilidades.
+
+<details>
+<summary>Ver detalles</summary>
 
 Introducción a la sección
 
@@ -26,10 +27,11 @@ Glosarios y términos básicos
 </details>
 
 ## 2. Seguridad de Redes y Comunicaciones
-<details>
-<summary>Ver detalles</summary>
 
 📌 Descripción: Protección de redes y comunicaciones, firewalls, VPNs y control de acceso.
+
+<details>
+<summary>Ver detalles</summary>
 
 Introducción a la sección
 
@@ -86,10 +88,11 @@ Infraestructura
 </details>
 
 ## 3. SOC y Operaciones de Seguridad
-<details>
-<summary>Ver detalles</summary>
 
 📌 Descripción: Operación de seguridad, monitorización, SIEM, respuesta a incidentes y Threat Hunting.
+
+<details>
+<summary>Ver detalles</summary>
 
 Introducción a la sección
 
@@ -128,10 +131,11 @@ Lectura: CVE, CVSS, CPE
 </details>
 
 ## 4. Endpoint Security / Hardening de Sistemas
-<details>
-<summary>Ver detalles</summary>
 
 📌 Descripción: Protección de sistemas finales, hardening y monitorización.
+
+<details>
+<summary>Ver detalles</summary>
 
 Introducción a la sección
 
@@ -154,10 +158,11 @@ Control de ejecución de aplicaciones (Applocker)
 </details>
 
 ## 5. Firma Digital y PKI
-<details>
-<summary>Ver detalles</summary>
 
 📌 Descripción: Firma digital, certificados y gestión de clave pública.
+
+<details>
+<summary>Ver detalles</summary>
 
 Introducción a la sección
 
@@ -188,10 +193,11 @@ Modelo conectado y web
 </details>
 
 ## 6. Gestión de Identidades, Riesgos y Amenazas
-<details>
-<summary>Ver detalles</summary>
 
 📌 Descripción: Control de acceso, IAM, autenticación y gestión de riesgos.
+
+<details>
+<summary>Ver detalles</summary>
 
 Introducción a la sección
 
@@ -212,9 +218,11 @@ Modelado de amenazas: MITRE ATT&CK, STRIDE
 </details>
 
 ## 7. Criptografía Básica
-<details> <summary>Ver detalles</summary>
 
 📌 Descripción: Conceptos iniciales de criptografía y cifrados históricos.
+
+<details>
+<summary>Ver detalles</summary>
 
 Introducción a la sección
 
@@ -285,10 +293,11 @@ Seguridad absoluta
 </details>
 
 ## 8. Criptografía Moderna
-<details>
-<summary>Ver detalles</summary>
 
 📌 Descripción: Criptografía avanzada y sistemas actuales de cifrado simétrico y asimétrico.
+
+<details>
+<summary>Ver detalles</summary>
 
 Introducción a la sección
 
@@ -337,10 +346,11 @@ Lectura: Computación cuántica (Opcional)
 </details>
 
 ## 9. Seguridad de los Datos
-<details>
-<summary>Ver detalles</summary>
 
 📌 Descripción: Protección, integridad y disponibilidad de la información, incluyendo funciones hash y backups.
+
+<details>
+<summary>Ver detalles</summary>
 
 Introducción a la sección
 
