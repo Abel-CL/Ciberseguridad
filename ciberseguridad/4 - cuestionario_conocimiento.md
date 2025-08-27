@@ -22,9 +22,12 @@ Usa las secciones desplegables para autoevaluarte.
    d) Evitar el uso de contraseñas  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
 - b) Proteger información y sistemas digitales de amenazas  
+
 </details>
 
 ---
@@ -36,9 +39,12 @@ Usa las secciones desplegables para autoevaluarte.
    d) Autenticación  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
 - c) Integridad  
+
 </details>
 
 ---
@@ -50,9 +56,12 @@ Usa las secciones desplegables para autoevaluarte.
    d) ICS Security  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
-- c) Ciberseguridad en la nube  
+- c) Ciberseguridad en la nube 
+
 </details>
 
 ---
@@ -64,9 +73,12 @@ Usa las secciones desplegables para autoevaluarte.
    d) Ataque DDoS desde botnets  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
 - b) Empleado negligente que comparte credenciales  
+
 </details>
 
 ---
@@ -78,9 +90,12 @@ Usa las secciones desplegables para autoevaluarte.
    d) Caja azul  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
 - c) Caja blanca  
+
 </details>
 
 ---
@@ -92,9 +107,12 @@ Usa las secciones desplegables para autoevaluarte.
    d) Vulnerabilidad  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
-- d) Vulnerabilidad  
+- d) Vulnerabilidad 
+
 </details>
 
 ---
@@ -106,9 +124,12 @@ Usa las secciones desplegables para autoevaluarte.
    d) Spyware  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
 - b) DoS/DDoS  
+
 </details>
 
 ---
@@ -120,9 +141,12 @@ Usa las secciones desplegables para autoevaluarte.
    d) Confidencialidad  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
 - c) No repudio  
+
 </details>
 
 ---
@@ -132,9 +156,12 @@ Usa las secciones desplegables para autoevaluarte.
 9. El hacking ético siempre requiere autorización legal del propietario del sistema.  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
 - Verdadero  
+
 </details>
 
 ---
@@ -142,9 +169,12 @@ Usa las secciones desplegables para autoevaluarte.
 10. La ciberseguridad solo aplica a empresas, no a individuos.  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
 - Falso → También protege a usuarios y gobiernos.  
+
 </details>
 
 ---
@@ -152,9 +182,12 @@ Usa las secciones desplegables para autoevaluarte.
 11. El ransomware es un tipo de malware que cifra archivos y pide rescate.  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
 - Verdadero  
+
 </details>
 
 ---
@@ -162,9 +195,12 @@ Usa las secciones desplegables para autoevaluarte.
 12. La disponibilidad se refiere a que los sistemas sean accesibles solo para usuarios autorizados.  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
 - Falso → Eso corresponde a la confidencialidad.  
+
 </details>
 
 ---
@@ -172,9 +208,12 @@ Usa las secciones desplegables para autoevaluarte.
 13. La autenticación responde a la pregunta “¿Quién eres?” y la autorización a “¿Qué puedes hacer?”.  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
 - Verdadero  
+
 </details>
 
 ---
@@ -184,10 +223,13 @@ Usa las secciones desplegables para autoevaluarte.
 14. Explica la diferencia entre Red Team y Blue Team.  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
 - Red Team: ofensivo, simula ataques reales para detectar vulnerabilidades.  
 - Blue Team: defensivo, protege, monitorea y responde ante amenazas.  
+
 </details>
 
 ---
@@ -195,11 +237,14 @@ Usa las secciones desplegables para autoevaluarte.
 15. Menciona tres buenas prácticas de ciberseguridad.  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
 - Uso de contraseñas robustas y MFA.  
 - Mantener sistemas actualizados.  
-- Capacitar al personal en seguridad.  
+- Capacitar al personal en seguridad.
+
 </details>
 
 ---
@@ -207,11 +252,14 @@ Usa las secciones desplegables para autoevaluarte.
 16. Ejemplo práctico de relación entre amenaza, vulnerabilidad y ataque.  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
 - Vulnerabilidad: servidor con software desactualizado.  
 - Amenaza: hacker interesado en explotar esa debilidad.  
-- Ataque: explotación del fallo para robar datos.  
+- Ataque: explotación del fallo para robar datos.
+
 </details>
 
 ---
@@ -219,9 +267,12 @@ Usa las secciones desplegables para autoevaluarte.
 17. Explica por qué el factor humano es el mayor riesgo en ciberseguridad.  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
 - Más del 70% de ataques exitosos dependen de errores humanos: clics en phishing, uso de contraseñas débiles, falta de capacitación.  
+
 </details>
 
 ---
@@ -229,11 +280,14 @@ Usa las secciones desplegables para autoevaluarte.
 18. ¿Qué controles garantizan la **confidencialidad** de la información?  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
 - Cifrado de datos en tránsito y reposo.  
 - Control de accesos y privilegios mínimos.  
-- Autenticación multifactor.  
+- Autenticación multifactor.
+
 </details>
 
 ---
@@ -241,9 +295,12 @@ Usa las secciones desplegables para autoevaluarte.
 19. ¿Cuál es la importancia de la Tríada CIA en ciberseguridad?  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
 - Es el marco fundamental que asegura que los datos estén protegidos en tres dimensiones: confidencialidad (privacidad), integridad (confiabilidad) y disponibilidad (acceso continuo).  
+
 </details>
 
 ---
@@ -251,11 +308,14 @@ Usa las secciones desplegables para autoevaluarte.
 20. Explica las fases de una prueba de penetración (pentest).  
 
 <details>
+
 <summary>Ver respuesta</summary>
+
 <b>Respuesta:</b>  
 1. Reconocimiento → recopilación de información.  
 2. Escaneo → detección de puertos, servicios y vulnerabilidades.  
 3. Explotación → intento de acceso o compromiso.  
 4. Post-explotación → evaluar impacto y persistencia.  
-5. Reporte → documentación y recomendaciones.  
+5. Reporte → documentación y recomendaciones.
+
 </details>
