@@ -8,7 +8,6 @@ El temario abarca desde los fundamentos de Python hasta la explotación de vulne
 ## 📌 Contenido del Curso
 
 ### 1️⃣ Fundamentos e Introducción a Python
-- Introducción a la sección  
 - ¿Qué es Python? Sintaxis y semántica  
 - Entrada y salida de usuario: `input()` y `print()`  
 - Tipos de datos simples: Strings, Números y F-Strings  
