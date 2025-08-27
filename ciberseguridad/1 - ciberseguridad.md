@@ -11,7 +11,23 @@ Objetivos principales:
 
 - Reducir riesgos económicos, legales y reputacionales ante incidentes de seguridad.
 
+Otros pilares:
+
+- Autenticidad: verificar la identidad del emisor/receptor.
+
+- No repudio: evitar que alguien niegue acciones realizadas.
+
 La ciberseguridad es una necesidad tanto para empresas como para individuos, ya que los ataques digitales pueden afectar desde sistemas bancarios hasta datos personales almacenados en la nube.
+
+---
+
+Conceptos clave
+
+- Amenaza: peligro potencial (ej. hacker).
+
+- Vulnerabilidad: debilidad explotable (ej. software desactualizado).
+
+- Riesgo: probabilidad de que una amenaza explote una vulnerabilidad.
 
 ---
 
@@ -59,66 +75,6 @@ Dato: Más del 70% de los ataques exitosos dependen del factor humano, no de la 
 
 ---
 
-## Importancia de la Ciberseguridad
-
-La ciberseguridad protege personas, empresas y gobiernos frente a riesgos digitales. Sus beneficios incluyen:
-
-- Protección de datos sensibles: Información financiera, médica, confidencial corporativa.
-
-- Prevención de pérdidas económicas: Ataques como ransomware pueden generar millones en daños.
-
-- Cumplimiento legal y regulatorio: Normas como GDPR, ISO 27001 o la Ley de Protección de Datos requieren medidas de seguridad.
-
-- Continuidad de negocio: Evita interrupciones críticas en servicios y operaciones.
-
-- Confianza de clientes y socios: Garantiza que la información compartida sea segura y confiable.
-
----
-
-## Marco de Ciberseguridad del NIST
-
-El NIST (National Institute of Standards and Technology) ofrece un marco integral para gestionar riesgos cibernéticos. Sus cinco funciones principales permiten estructurar la seguridad de manera efectiva:
-
-### 1. Identificar (Identify)
-
-- Catalogar activos críticos y sistemas.
-
-- Evaluar riesgos y vulnerabilidades.
-
-- Priorizar recursos según impacto en la organización.
-
-### 2. Proteger (Protect)
-
-- Implementar políticas de seguridad, controles de acceso y cifrado.
-
-- Formar al personal en buenas prácticas y concientización.
-
-- Asegurar la protección de datos críticos y confidenciales.
-
-### 3. Detectar (Detect)
-
-- Monitorear continuamente eventos y anomalías.
-
-- Detectar incidentes tempranamente para una rápida respuesta.
-
-### 4. Responder (Respond)
-
-- Planificar y ejecutar acciones ante incidentes de seguridad.
-
-- Mitigar daños y comunicar a las partes interesadas.
-
-- Analizar incidentes para mejorar las defensas.
-
-### 5. Recuperar (Recover)
-
-- Restaurar sistemas y operaciones normales tras un incidente.
-
-- Revisar estrategias y actualizar planes de seguridad.
-
-- Mejorar la resiliencia organizacional ante futuros ataques.
-
----
-
 ## Buenas Prácticas de Ciberseguridad
 
 Para mantener un entorno seguro, se recomienda:
@@ -141,30 +97,46 @@ Tip: Adoptar cultura de ciberseguridad en la organización, donde cada empleado 
 
 ---
 
-## Tecnologías y Herramientas Clave
+## Hacking Ético
 
-Algunas de las tecnologías más usadas incluyen:
+### ¿Qué es el Hacking Ético?
 
-- Firewalls y sistemas IDS/IPS: filtrado y monitoreo de tráfico.
+El hacking ético utiliza las mismas técnicas que un atacante, pero de manera legal y autorizada, con el objetivo de detectar y corregir vulnerabilidades antes de que alguien malicioso las explote.
 
-- Sistemas de gestión de información y eventos de seguridad (SIEM): centralización y análisis de logs.
+### Tipos de Hackers
 
-- Antivirus y antimalware: detección y eliminación de amenazas conocidas.
+- White Hat (Éticos): prueban la seguridad para proteger.
 
-- Cifrado y gestión de claves: protección de datos sensibles.
+- Black Hat (Maliciosos): atacan con fines ilegales.
 
-- VPN y segmentación de red: asegurar la comunicación y limitar el alcance de un ataque.
+- Grey Hat: intermedios, actúan sin permiso pero sin fines necesariamente criminales.
 
----
+- Red Team / Blue Team: ofensivos vs defensivos.
 
-## Tendencias en Ciberseguridad
+### Tipos de Pruebas de Pentesting
 
-- Inteligencia artificial y machine learning: detección automática de patrones anómalos.
+- Caja Negra: sin información previa del sistema.
 
-- Seguridad Zero Trust: no confiar en ningún dispositivo o usuario por defecto.
+- Caja Gris: información parcial.
 
-- Protección contra ransomware y ataques a la cadena de suministro.
+- Caja Blanca: con información completa (código, diagramas, etc.).
 
-- Ciberseguridad en IoT y dispositivos conectados.
+### Fases de un Pentest (Prueba de Penetración)
 
-- Automatización de respuesta ante incidentes para reducir tiempos de mitigación.
+1. Reconocimiento: obtener información del objetivo.
+
+2. Escaneo: buscar puertos, servicios y vulnerabilidades.
+
+3. Explotación: intentar acceder mediante fallas.
+
+4. Post-explotación: evaluar impacto y persistencia.
+
+5. Reporte: documentar hallazgos y dar soluciones.
+
+### Ética y Legalidad
+
+- Todo hacking ético requiere permiso explícito.
+
+- El objetivo es mejorar la seguridad, no dañarla.
+
+- La ética distingue al hacker profesional del ciberdelincuente.

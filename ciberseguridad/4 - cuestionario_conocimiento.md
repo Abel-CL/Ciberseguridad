@@ -15,205 +15,247 @@ Usa las secciones desplegables para autoevaluarte.
 
 ## Parte I: Selección Múltiple
 
-1. ¿Qué es la ciberseguridad?  
-   a) El estudio de virus informáticos  
-   b) Conjunto de prácticas para proteger sistemas, redes y datos de amenazas digitales  
-   c) Exclusivamente el uso de firewalls  
-   d) Protección únicamente de los dispositivos móviles  
+1. ¿Cuál es el objetivo principal de la ciberseguridad?  
+   a) Desarrollar software más rápido  
+   b) Proteger información y sistemas digitales de amenazas  
+   c) Instalar antivirus en todas las computadoras  
+   d) Evitar el uso de contraseñas  
 
 <details>
 <summary>Ver respuesta</summary>
-
-**Respuesta:**  
-- b) Conjunto de prácticas para proteger sistemas, redes y datos de amenazas digitales
-
+<b>Respuesta:</b>  
+- b) Proteger información y sistemas digitales de amenazas  
 </details>
 
-2. Según el NIST, ¿cuál de las siguientes NO es una función principal?  
-   a) Identificar  
-   b) Proteger  
-   c) Detectar  
-   d) Analizar  
+---
 
-<details>
-<summary>Ver respuesta</summary>
-
-**Respuesta:**  
-- d) Analizar
-
-</details>
-
-3. Objetivo principal de "Responder" del NIST:  
-   a) Restaurar datos luego de un ataque  
-   b) Detectar amenazas en tiempo real  
-   c) Reaccionar rápida y efectivamente ante incidentes  
-   d) Proteger los activos críticos de la organización  
-
-<details>
-<summary>Ver respuesta</summary>
-
-**Respuesta:**  
-- c) Reaccionar rápida y efectivamente ante incidentes
-
-</details>
-
-4. Rol del Blue Team:  
-   a) Ejecutar ataques controlados  
-   b) Defender la infraestructura tecnológica  
-   c) Coordinar con el Purple Team en ofensiva  
-   d) Hacer auditorías de seguridad  
-
-<details>
-<summary>Ver respuesta</summary>
-
-**Respuesta:**  
-- b) Defender la infraestructura tecnológica
-
-</details>
-
-5. Pilar de la triada CIA relacionado con la exactitud de los datos:  
-   a) Confidencialidad  
-   b) Integridad  
-   c) Disponibilidad  
+2. ¿Qué principio de la Tríada CIA asegura que los datos no sean alterados de manera indebida?  
+   a) Disponibilidad  
+   b) Confidencialidad  
+   c) Integridad  
    d) Autenticación  
 
 <details>
 <summary>Ver respuesta</summary>
-
-**Respuesta:**  
-- b) Integridad
-
+<b>Respuesta:</b>  
+- c) Integridad  
 </details>
 
-6. La autenticación consiste en:  
-   a) Otorgar permisos de acceso  
-   b) Verificar la identidad de un usuario  
-   c) Garantizar que los datos no sean modificados  
-   d) Evitar la denegación de servicio  
+---
+
+3. ¿Qué tipo de ciberseguridad protege datos y aplicaciones alojadas en servicios cloud?  
+   a) Endpoint Security  
+   b) Ciberseguridad de red  
+   c) Ciberseguridad en la nube  
+   d) ICS Security  
 
 <details>
 <summary>Ver respuesta</summary>
-
-**Respuesta:**  
-- b) Verificar la identidad de un usuario
-
+<b>Respuesta:</b>  
+- c) Ciberseguridad en la nube  
 </details>
 
-7. Una vulnerabilidad es:  
-   a) Una amenaza potencial  
-   b) Una acción que explota una debilidad  
-   c) Una debilidad que puede ser explotada  
-   d) Un ataque exitoso  
+---
+
+4. ¿Cuál de los siguientes es un ejemplo de amenaza interna?  
+   a) Ransomware distribuido por un hacker externo  
+   b) Empleado negligente que comparte credenciales  
+   c) Phishing masivo a correos de la empresa  
+   d) Ataque DDoS desde botnets  
 
 <details>
 <summary>Ver respuesta</summary>
+<b>Respuesta:</b>  
+- b) Empleado negligente que comparte credenciales  
+</details>
 
-**Respuesta:**  
-- c) Una debilidad que puede ser explotada
+---
 
+5. ¿Qué prueba de pentesting implica conocer todo el código y diagramas del sistema?  
+   a) Caja negra  
+   b) Caja gris  
+   c) Caja blanca  
+   d) Caja azul  
+
+<details>
+<summary>Ver respuesta</summary>
+<b>Respuesta:</b>  
+- c) Caja blanca  
+</details>
+
+---
+
+6. ¿Qué concepto describe una debilidad en software que puede ser explotada?  
+   a) Amenaza  
+   b) Ataque  
+   c) Riesgo  
+   d) Vulnerabilidad  
+
+<details>
+<summary>Ver respuesta</summary>
+<b>Respuesta:</b>  
+- d) Vulnerabilidad  
+</details>
+
+---
+
+7. ¿Qué tipo de ataque busca saturar servicios para dejarlos fuera de línea?  
+   a) Phishing  
+   b) DoS/DDoS  
+   c) Ingeniería social  
+   d) Spyware  
+
+<details>
+<summary>Ver respuesta</summary>
+<b>Respuesta:</b>  
+- b) DoS/DDoS  
+</details>
+
+---
+
+8. ¿Qué principio extendido asegura que un usuario no pueda negar haber realizado una acción digital?  
+   a) Autenticación  
+   b) Autorización  
+   c) No repudio  
+   d) Confidencialidad  
+
+<details>
+<summary>Ver respuesta</summary>
+<b>Respuesta:</b>  
+- c) No repudio  
 </details>
 
 ---
 
 ## Parte II: Verdadero / Falso
 
-8. El Red Team se centra en ciberseguridad defensiva  
+9. El hacking ético siempre requiere autorización legal del propietario del sistema.  
 
 <details>
 <summary>Ver respuesta</summary>
-
-**Respuesta:**  
-- Falso → Se centra en ofensiva
-
+<b>Respuesta:</b>  
+- Verdadero  
 </details>
 
-9. La disponibilidad asegura que la información esté accesible cuando se requiera  
+---
+
+10. La ciberseguridad solo aplica a empresas, no a individuos.  
 
 <details>
 <summary>Ver respuesta</summary>
-
-**Respuesta:**  
-- Verdadero
-
+<b>Respuesta:</b>  
+- Falso → También protege a usuarios y gobiernos.  
 </details>
 
-10. El no repudio garantiza que emisor o receptor no puedan negar envío/recepción  
+---
+
+11. El ransomware es un tipo de malware que cifra archivos y pide rescate.  
 
 <details>
 <summary>Ver respuesta</summary>
-
-**Respuesta:**  
-- Verdadero
-
+<b>Respuesta:</b>  
+- Verdadero  
 </details>
 
-11. Una amenaza siempre implica que un ataque se ha realizado  
+---
+
+12. La disponibilidad se refiere a que los sistemas sean accesibles solo para usuarios autorizados.  
 
 <details>
 <summary>Ver respuesta</summary>
-
-**Respuesta:**  
-- Falso → Es un peligro potencial, no necesariamente un ataque
-
+<b>Respuesta:</b>  
+- Falso → Eso corresponde a la confidencialidad.  
 </details>
 
-12. El Purple Team combina conocimientos ofensivos y defensivos para fortalecer la seguridad  
+---
+
+13. La autenticación responde a la pregunta “¿Quién eres?” y la autorización a “¿Qué puedes hacer?”.  
 
 <details>
 <summary>Ver respuesta</summary>
-
-**Respuesta:**  
-- Verdadero
-
+<b>Respuesta:</b>  
+- Verdadero  
 </details>
 
 ---
 
 ## Parte III: Desarrollo
 
-13. Diferencia entre amenaza, vulnerabilidad y ataque  
+14. Explica la diferencia entre Red Team y Blue Team.  
 
 <details>
 <summary>Ver respuesta</summary>
-
-**Respuesta:**  
-- Amenaza: posible peligro que puede afectar sistemas o datos  
-- Vulnerabilidad: debilidad que puede ser explotada  
-- Ataque: acción concreta para explotar una vulnerabilidad
-
+<b>Respuesta:</b>  
+- Red Team: ofensivo, simula ataques reales para detectar vulnerabilidades.  
+- Blue Team: defensivo, protege, monitorea y responde ante amenazas.  
 </details>
 
-14. Controles que garantizan confidencialidad  
+---
+
+15. Menciona tres buenas prácticas de ciberseguridad.  
 
 <details>
 <summary>Ver respuesta</summary>
-
-**Respuesta:**  
-- Cifrado de datos  
-- Control de accesos  
-- Autenticación multifactor
-
+<b>Respuesta:</b>  
+- Uso de contraseñas robustas y MFA.  
+- Mantener sistemas actualizados.  
+- Capacitar al personal en seguridad.  
 </details>
 
-15. Importancia del Marco NIST  
+---
+
+16. Ejemplo práctico de relación entre amenaza, vulnerabilidad y ataque.  
 
 <details>
 <summary>Ver respuesta</summary>
-
-**Respuesta:**  
-- Proporciona un marco reconocido para evaluar y mejorar la ciberseguridad  
-- Ayuda a gestionar riesgos y cumplir regulaciones  
-- Facilita estandarizar procesos de seguridad
-
+<b>Respuesta:</b>  
+- Vulnerabilidad: servidor con software desactualizado.  
+- Amenaza: hacker interesado en explotar esa debilidad.  
+- Ataque: explotación del fallo para robar datos.  
 </details>
 
-16. Ejemplo de vulnerabilidad y ataque  
+---
+
+17. Explica por qué el factor humano es el mayor riesgo en ciberseguridad.  
 
 <details>
 <summary>Ver respuesta</summary>
+<b>Respuesta:</b>  
+- Más del 70% de ataques exitosos dependen de errores humanos: clics en phishing, uso de contraseñas débiles, falta de capacitación.  
+</details>
 
-**Respuesta:**  
-- Vulnerabilidad: servidor con software desactualizado  
-- Ataque: atacante explota la debilidad para acceder a datos o ejecutar código malicioso
+---
 
+18. ¿Qué controles garantizan la **confidencialidad** de la información?  
+
+<details>
+<summary>Ver respuesta</summary>
+<b>Respuesta:</b>  
+- Cifrado de datos en tránsito y reposo.  
+- Control de accesos y privilegios mínimos.  
+- Autenticación multifactor.  
+</details>
+
+---
+
+19. ¿Cuál es la importancia de la Tríada CIA en ciberseguridad?  
+
+<details>
+<summary>Ver respuesta</summary>
+<b>Respuesta:</b>  
+- Es el marco fundamental que asegura que los datos estén protegidos en tres dimensiones: confidencialidad (privacidad), integridad (confiabilidad) y disponibilidad (acceso continuo).  
+</details>
+
+---
+
+20. Explica las fases de una prueba de penetración (pentest).  
+
+<details>
+<summary>Ver respuesta</summary>
+<b>Respuesta:</b>  
+1. Reconocimiento → recopilación de información.  
+2. Escaneo → detección de puertos, servicios y vulnerabilidades.  
+3. Explotación → intento de acceso o compromiso.  
+4. Post-explotación → evaluar impacto y persistencia.  
+5. Reporte → documentación y recomendaciones.  
 </details>
