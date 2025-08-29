@@ -51,8 +51,9 @@ x = 150
 
 ### Sensibles a mayúsculas y minúsculas
 
-```python
 Edad y edad son variables diferentes.
+
+```python
 Edad = 15
 edad = 20
 ```
