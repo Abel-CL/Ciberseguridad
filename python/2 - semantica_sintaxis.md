@@ -1,4 +1,4 @@
-# Sintaxis y Semántica en Programación
+# Sintaxis y Semántica en Python
 
 En programación, es fundamental entender los conceptos de **Sintaxis** y **Semántica**, ya que son complementarios pero distintos.
 
