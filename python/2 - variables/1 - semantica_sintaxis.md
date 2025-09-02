@@ -31,5 +31,5 @@ Ejemplo 2: aunque la sintaxis sea válida, el resultado es incorrecto porque la 
 precio = 100
 descuento = 20
 total = precio + descuento  # Debería ser resta
-print("Total a pagar:", total)
+print(f"Total a pagar: {total}")
 ```
