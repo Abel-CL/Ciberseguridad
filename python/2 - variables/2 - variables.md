@@ -16,8 +16,8 @@ Si pensamos en una caja con una etiqueta, la etiqueta sería el nombre de la var
 
 ```python
 #Correcto
-edad = abel
-nombre_usuario = pedro
+edad = 24
+nombre_usuario = "abel"
 precio1 = 150
 
 #Incorrecto
@@ -61,8 +61,8 @@ edad = 20
 ### Evitar caracteres especiales y espacios
 
 ```python
-nombre_completo = pedro mendez #Correcto
-nombre completo = edgar lopez #Incorrecto
+nombre_completo = "pedro mendez" #Correcto
+nombre completo = "edgar lopez" #Incorrecto
 nombre$ = abel #Incorrecto
 ```
 
