@@ -22,8 +22,6 @@ Se usan para realizar operaciones matemáticas.
 **Ejemplo en código:**
 
 ```python
-```
-```python
 a = 10
 b = 3
 print(a + b)   # 13
@@ -73,8 +71,6 @@ Se usan para combinar expresiones booleanas.
 
 **Ejemplo en código:**
 
-```python
-```
 ```python
 a = True
 b = False
