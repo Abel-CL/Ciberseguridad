@@ -174,19 +174,22 @@ for i, fruta in enumerate(frutas):
 
 ## Metodos utiles de listas
 
-| Método           | Descripción                                         | Ejemplo                     |
-| ---------------- | --------------------------------------------------- | --------------------------- |
-| append(elemento) | Agrega un elemento al final                         | lista.append(10)            |
-| insert(i, elem)  | Inserta elemento en índice `i`                      | lista.insert(1, "a")        |
-| extend(lista2)   | Agrega todos los elementos de otra lista            | lista.extend(\[1,2])        |
-| remove(valor)    | Elimina primer aparición del valor                  | lista.remove(3)             |
-| pop(i)           | Elimina y devuelve el elemento (último por defecto) | lista.pop()                 |
-| clear()          | Elimina todos los elementos                         | lista.clear()               |
-| index(valor)     | Devuelve el índice de la primera aparición          | lista.index(3)              |
-| count(valor)     | Cuenta cuántas veces aparece el valor               | lista.count(2)              |
-| sort()           | Ordena la lista (ascendente por defecto)            | lista.sort()                |
-| reverse()        | Invierte el orden de la lista                       | lista.reverse()             |
-| copy()           | Devuelve una copia de la lista                      | nueva\_lista = lista.copy() |
+| Método            | Descripción                                         | Ejemplo                     |
+| ----------------- | --------------------------------------------------- | --------------------------- |
+| append(elemento)  | Agrega un elemento al final                         | lista.append(10)            |
+| insert(i, elem)   | Inserta elemento en índice `i`                      | lista.insert(1, "a")        |
+| extend(lista2)    | Agrega todos los elementos de otra lista            | lista.extend(\[1,2])        |
+| remove(valor)     | Elimina primer aparición del valor                  | lista.remove(3)             |
+| pop(i)            | Elimina y devuelve el elemento (último por defecto) | lista.pop()                 |
+| clear()           | Elimina todos los elementos                         | lista.clear()               |
+| index(valor)      | Devuelve el índice de la primera aparición          | lista.index(3)              |
+| count(valor)      | Cuenta cuántas veces aparece el valor               | lista.count(2)              |
+| sort()            | Ordena la lista (ascendente por defecto)            | lista.sort()                |
+| reverse()         | Invierte el orden de la lista                       | lista.reverse()             |
+| copy()            | Devuelve una copia de la lista                      | nueva\_lista = lista.copy() |
+| frutas[0]         | Accede al primer elemento                           | frutas = ["pera", "mango"]  |
+| len(frutas)       | Cantidad de elementos                               |                             |
+| frutas[1] = "pera"| Cambiar el valor segun su indice                    |                             |  
 
 ## Listas anidadas
 
