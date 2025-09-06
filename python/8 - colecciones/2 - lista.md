@@ -62,6 +62,7 @@ print(frutas)  # ['manzana', 'kiwi', 'cereza']
 ```python
 frutas = ["manzana", "banana", "cereza"]
 frutas.append("naranja")
+print(frutas)
 ```
 
 - insert() → agrega en un índice específico
@@ -69,6 +70,7 @@ frutas.append("naranja")
 ```python
 frutas = ["manzana", "banana", "cereza"]
 frutas.insert(1, "pera")
+print(frutas)
 ```
 
 - extend() → agrega otra lista completa
@@ -76,6 +78,7 @@ frutas.insert(1, "pera")
 ```python
 frutas = ["manzana", "banana", "cereza"]
 frutas.extend(["mango", "sandía"])
+print(frutas)
 ```
 
 ## Eliminar elementos
@@ -85,6 +88,7 @@ frutas.extend(["mango", "sandía"])
 ```python
 frutas = ["manzana", "banana", "cereza"]
 del frutas[0]
+print(frutas)
 ```
 
 - pop() → elimina y devuelve el elemento (último o índice específico)
@@ -93,6 +97,7 @@ del frutas[0]
 frutas = ["manzana", "banana", "cereza"]
 frutas.pop()       # elimina último
 frutas.pop(1)      # elimina el elemento en índice 1
+print(frutas)
 ```
 
 - remove() → elimina por valor
@@ -100,6 +105,7 @@ frutas.pop(1)      # elimina el elemento en índice 1
 ```python
 frutas = ["manzana", "banana", "cereza"]
 frutas.remove("cereza")
+print(frutas)
 ```
 
 - clear() → elimina todos los elementos
@@ -107,6 +113,7 @@ frutas.remove("cereza")
 ```python
 frutas = ["manzana", "banana", "cereza"]
 frutas.clear()
+print(frutas)
 ```
 
 ## Slicing (rebanadas)
@@ -141,13 +148,14 @@ print(d)
 - Verificar existencia
 
 ```python
-5 in [1, 2, 3, 4, 5]  # True
+print(5 in [1, 2, 3, 4, 5])  # True
 ```
 
 ## Recorrer lista
 
 ```python
 frutas = ["manzana", "banana", "cereza"]
+print(frutas)
 
 # Usando for
 for fruta in frutas:
