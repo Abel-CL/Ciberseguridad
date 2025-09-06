@@ -115,13 +115,60 @@ for clave, valor in persona.items():
 
 1. Para **numerar iteraciones**, usar `range()`.
 
+```python
+# Contar del 1 al 5
+for i in range(1, 6):
+    print(f"Iteración número: {i}")
+```
+
 2. **Evitar modificar la secuencia dentro del bucle**, puede causar errores inesperados.
+
+```python
+frutas = ["manzana", "banana", "cereza"]
+
+# Evita hacer esto:
+for fruta in frutas:
+    frutas.remove(fruta)  # Puede causar errores o saltar elementos
+
+print(frutas)
+
+# Forma correcta: crear una copia si necesitas modificar
+for fruta in frutas[:]:  # Copia de la lista
+    if fruta == "banana":
+        frutas.remove(fruta)
+
+print(frutas)
+```
 
 3. **Combinar con `break` y `continue`** para controlar el flujo.
 
+```python
+for i in range(10):
+    if i == 3:
+        continue  # Salta la iteración donde i == 3
+    if i == 7:
+        break     # Termina el bucle cuando i == 7
+    print(i)
+```
+
 4. Se pueden usar **bucles anidados** para estructuras complejas.
 
+```python
+for fila in range(1, 4):
+    for columna in range(1, 4):
+        print(f"Fila {fila}, Columna {columna}")
+```
+
 5. Siempre mantener **indentación consistente** (4 espacios por nivel).
+
+```python
+for i in range(3):
+    print("Correcto")  # 4 espacios de indentación
+
+# Incorrecto: mezcla de espacios y tabulaciones
+for i in range(3):
+ print("Incorrecto")  # Puede causar errores de indentación
+```
 
 ## Resumen
 
