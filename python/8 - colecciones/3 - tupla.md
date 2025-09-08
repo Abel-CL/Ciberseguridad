@@ -109,6 +109,20 @@ print(5 in (1, 2, 3, 4, 5))  # True
 
 `Nota`: las tuplas tienen menos **métodos que las listas** debido a su inmutabilidad.
 
+### Ejemplo con `count(valor)`
+
+```python
+tupla = (1, 2, 2, 3, 4, 2, 5)
+print(tupla.count(2))
+```
+
+### Ejemplo con `index(valor)`
+
+```python
+tupla = (10, 20, 30, 40, 50, 30)
+print(tupla.index(30))
+```
+
 ## Tuplas anidadas
 
 ```python
