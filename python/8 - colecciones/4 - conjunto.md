@@ -47,14 +47,6 @@ for fruta in frutas:
 | `discard(elem)`                     | Elimina un elemento, pero **no da error** si no existe. | `a = {1,2}; a.discard(3)`  | `{1, 2}`             |           |
 | `pop()`                             | Elimina y devuelve un elemento aleatorio.               | `a = {1,2,3}; x = a.pop()` | `x → 1 (depende)`    |           |
 | `clear()`                           | Elimina todos los elementos.                            | `a = {1,2}; a.clear()`     | `set()`              |           |
-| `union(b)` / \`a                    | b\`                                                     | Unión de dos conjuntos.    | `{1,2}.union({2,3})` | `{1,2,3}` |
-| `intersection(b)` / `a & b`         | Intersección: elementos comunes.                        | `{1,2,3} & {2,3,4}`        | `{2,3}`              |           |
-| `difference(b)` / `a - b`           | Diferencia: elementos en `a` pero no en `b`.            | `{1,2,3} - {2}`            | `{1,3}`              |           |
-| `symmetric_difference(b)` / `a ^ b` | Elementos que están en uno u otro, pero no en ambos.    | `{1,2,3} ^ {2,3,4}`        | `{1,4}`              |           |
-| `issubset(b)`                       | Verifica si `a` está contenido en `b`.                  | `{1,2} <= {1,2,3}`         | `True`               |           |
-| `issuperset(b)`                     | Verifica si `a` contiene a `b`.                         | `{1,2,3} >= {2}`           | `True`               |           |
-| `isdisjoint(b)`                     | Verifica si no tienen elementos en común.               | `{1,2}.isdisjoint({3,4})`  | `True`               |           |
-| `copy()`                            | Devuelve una copia del conjunto.                        | `a = {1,2}; b = a.copy()`  | `b → {1,2}`          |           |
 
 ## Agregar y eliminar elementos
 
