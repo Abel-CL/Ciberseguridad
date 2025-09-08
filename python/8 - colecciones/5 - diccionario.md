@@ -32,7 +32,11 @@ diccionario = {
 d1 = {}
 
 # Con elementos
-d2 = {"nombre": "Ana", "edad": 25, "profesion": "Ingeniera"}
+d2 = {
+    "nombre": "Maria",
+    "edad": 25,
+    "profesion": "Ingeniera"
+}
 
 # Usando dict()
 d3 = dict(nombre="Pedro", edad=30)
@@ -44,8 +48,10 @@ d4 = dict([("a", 1), ("b", 2)])
 ## Acceder a valores
 
 ```python
-persona = {"nombre": "Carlos", "edad": 28}
-
+persona = {
+    "nombre": "Carlos",
+    "edad": 28
+}
 print(persona["nombre"])   # Carlos
 print(persona.get("edad")) # 28
 print(persona.get("altura", "No existe"))  # Evita error
@@ -56,25 +62,63 @@ print(persona.get("altura", "No existe"))  # Evita error
 ## Modificar y agregar elementos
 
 ```python
-persona = {"nombre": "Carlos", "edad": 28}
-
+persona = {
+    "nombre": "Carlos",
+    "edad": 28
+}
 persona["edad"] = 29           # Modificar valor
 persona["ciudad"] = "Madrid"   # Agregar nueva clave
-
 print(persona) # {'nombre': 'Carlos', 'edad': 29, 'ciudad': 'Madrid'}
 ```
 
 ## Eliminar elementos
 
-```python
-persona = {"nombre": "Ana", "edad": 25, "pais": "España"}
-  
-del persona["pais"]       # Eliminar clave específica
-persona.pop("edad")       # Elimina y devuelve el valor
-persona.popitem()         # Elimina el último par clave-valor
-persona.clear()           # Vacía el diccionario
+- `del persona["clave"]` → elimina la clave indicada, no devuelve nada.
 
-print(persona)            # {}
+```python
+persona = {
+    "nombre": "Maria",
+    "edad": 25,
+    "pais": "España"
+}
+del persona["pais"]
+print(persona)
+```
+
+- `pop("clave")` → elimina la clave indicada y devuelve su valor.
+
+```python
+persona = {
+    "nombre": "Maria",
+    "edad": 25,
+    "pais": "España"
+}
+eliminar = persona.pop("edad")
+print(eliminar)
+```
+
+- `popitem()` → elimina el último par `(clave, valor)` y lo devuelve como tupla.
+
+```python
+persona = {
+    "nombre": "Maria",
+    "edad": 25,
+    "pais": "España"
+}
+eliminar = persona.popitem()
+print(eliminar)
+```
+
+- `clear()` → elimina **todos los elementos** del diccionario, quedando vacío.
+
+```python
+persona = {
+    "nombre": "Maria",
+    "edad": 25,
+    "pais": "España"
+}
+persona.clear()
+print(persona)
 ```
 
 ## Metodos utiles
@@ -89,29 +133,47 @@ print(persona)            # {}
 
 ```python
 persona = {
-    "nombre": "Ana",
+    "nombre": "Maria",
     "edad": 25
 }
-
 persona.update({"edad": 26, "ciudad": "Madrid"})
-
 print(persona)
 ```
 
 ## Recorrer diccionarios
 
-```python
-persona = {"nombre": "Ana", "edad": 25, "pais": "España"}
+- Recorrer claves
 
-# Recorrer claves
+```python
+persona = {
+    "nombre": "Maria",
+    "edad": 25,
+    "pais": "España"
+}
 for clave in persona:
     print(clave)
+```
 
-# Recorrer valores
+- Recorrer valores
+
+```python 
+persona = {
+    "nombre": "Maria",
+    "edad": 25,
+    "pais": "España"
+}
 for valor in persona.values():
     print(valor)
+```
 
-# Recorrer pares clave-valor
+- Recorrer pares clave-valor
+
+```python
+persona = {
+    "nombre": "Maria",
+    "edad": 25,
+    "pais": "España"
+}
 for clave, valor in persona.items():
     print(f"{clave}: {valor}")
 ```
@@ -120,39 +182,22 @@ for clave, valor in persona.items():
 
 ```python
 usuarios = {
-    "usuario1": {"nombre": "Ana", "edad": 25},
+    "usuario1": {"nombre": "Maria", "edad": 25},
     "usuario2": {"nombre": "Luis", "edad": 30}
 }
-
 print(usuarios["usuario1"]["nombre"])  # Ana
 ```
 
 ## Operadores con diccionarios
 
 ```python
-persona = {"nombre": "Ana", "edad": 25}
-
+persona = {
+    "nombre": "Pedro",
+    "edad": 25
+}
 print("nombre" in persona)   # True
-print("Ana" in persona)      # False (busca claves, no valores)
+print("Pedro" in persona)      # False (busca claves, no valores)
 print(len(persona))          # 2
-```
-
-## Operadores con diccionarios
-
-```python
-persona = {"nombre": "Ana", "edad": 25}
-
-print("nombre" in persona)   # True
-print("Ana" in persona)      # False (busca claves, no valores)
-print(len(persona))          # 2
-```
-
-## Diccionarios por comprensión
-
-```python
-cuadrados = {x: x**2 for x in range(5)}
-print(cuadrados)
-# {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
 ```
 
 ## Usos comunes
@@ -163,7 +208,7 @@ print(cuadrados)
 # Simulando una respuesta de una API en formato JSON
 usuario = {
     "id": 101,
-    "nombre": "Ana",
+    "nombre": "Juana",
     "email": "ana@example.com",
     "activo": True,
     "roles": ["admin", "editor"],
@@ -174,7 +219,7 @@ usuario = {
 }
 
 # Accediendo a los datos
-print(usuario["nombre"])      # Ana
+print(usuario["nombre"])      # Juana
 print(usuario["roles"])       # ['admin', 'editor']
 print(usuario["perfil"]["pais"])  # España
 
@@ -183,8 +228,8 @@ usuario["activo"] = False
 print(usuario["activo"])      # False
 
 # Agregar un nuevo campo
-usuario["telefono"] = "+34 600 123 456"
-print(usuario["telefono"])    # +34 600 123 456
+usuario["telefono"] = "78894556"
+print(usuario["telefono"])    # 78894556
 ```
 
 - Contar frecuencias:
@@ -202,7 +247,7 @@ print(conteo)  # {'b':1, 'a':3, 'n':2}
 ```python
 # Representar una "tabla" de estudiantes
 estudiantes = {
-    1: {"nombre": "Ana", "edad": 20, "carrera": "Ingeniería"},
+    1: {"nombre": "Juana", "edad": 20, "carrera": "Ingeniería"},
     2: {"nombre": "Luis", "edad": 22, "carrera": "Medicina"},
     3: {"nombre": "María", "edad": 21, "carrera": "Arquitectura"}
 }
