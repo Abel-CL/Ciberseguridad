@@ -84,18 +84,20 @@ for i, fruta in enumerate(frutas):
 a = (1, 2)
 b = (3, 4)
 c = a + b  # (1, 2, 3, 4)
+print(c)
 ```
 
 - Repetir elementos
 
 ```python
 d = (0,) * 3  # (0, 0, 0)
+print(d)
 ```
 
 - Verificar existencia
 
 ```python
-5 in (1, 2, 3, 4, 5)  # True
+print(5 in (1, 2, 3, 4, 5))  # True
 ```
 
 ## Métodos útiles de tuplas
