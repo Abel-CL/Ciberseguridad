@@ -22,11 +22,11 @@ saludar("Luis")       # "Luis" es otro argumento
 
 ### Explicación:
 
-Definimos la función `saludar` con un parámetro `nombre`.
+- Definimos la función `saludar` con un parámetro `nombre`.
 
-Al llamar la función, le pasamos un argumento (`"Ana"` o `"Luis"`).
+- Al llamar la función, le pasamos un argumento (`"Ana"` o `"Luis"`).
 
-La función usa ese valor dentro de su bloque de código.
+- La función usa ese valor dentro de su bloque de código.
 
 ## Tipos de parámetros
 
